@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
+
+body, p, span, li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  scroll-behavior:smooth;
+}
+
+.dairyHeroSec {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('https://img.freepik.com/premium-photo/modern-corporate-dairy-farm-agriculture-business-large-scale-farm-operation-this-particular-corporate-business-farm-has-1400-milk-cows_1028938-194177.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dairyTeam {
+  background-image: url(https://www.joyfarmlanet.co.ke/wp-content/uploads/2016/09/big_bg.jpg?id=301);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.customShadow {
+  box-shadow: 0px 2px 8px 4px rgb(230, 229, 229);
+}
